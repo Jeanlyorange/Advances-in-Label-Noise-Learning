@@ -20,6 +20,7 @@ An advanced data-centric AI platform that detects and rectifies issues in any da
 
 ## Content
   - [Benchmarks & Leaderboard](#benchmarks--leaderboard)
+  - [Papers & Code in 2024](#papers--code-in-2024)
   - [Papers & Code in 2023](#papers--code-in-2023)
     - [KDD 2023](#KDD-2023)
     - [NeurIPS 2023](#NeurIPS-2023)
