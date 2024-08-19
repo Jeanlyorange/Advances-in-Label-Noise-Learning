@@ -1,8 +1,6 @@
 # Learning-with-Noisy-Labels
 
     A curated list of most recent papers & codes in Learning with Noisy Labels
-    
-    Some recent works about group-distributional robustness, label distribution shifts, are also included.
 
 ---
 
@@ -13,14 +11,16 @@ An advanced data-centric AI platform that detects and rectifies issues in any da
 ## Competition
 
 **A Hands-on Tutorial for Learning with Noisy Labels** (IJCAI 2022)[[website]](http://competition.noisylabels.com/)
-**
 
 ## Tutorial
 
-**1st Learning and Mining with Noisy Labels Challenge** (IJCAI 2023)[[Website]](https://sites.google.com/ucsc.edu/tutorial-noisylabels/home)[[GitHub]](https://github.com/Docta-ai/IJCAI-tutorial)
+* **1st Learning and Mining with Noisy Labels Challenge** (IJCAI 2023)[[Website]](https://sites.google.com/ucsc.edu/tutorial-noisylabels/home)[[GitHub]](https://github.com/Docta-ai/IJCAI-tutorial)
+
 
 ## Content
   - [Benchmarks & Leaderboard](#benchmarks--leaderboard)
+  - [Surveys](#surveys)
+  - [Theoritical Papers](#Theoretical-papaers)
   - [Papers & Code in 2024](#papers--code-in-2024)
   - [Papers & Code in 2023](#papers--code-in-2023)
     - [KDD 2023](#KDD-2023)
@@ -78,9 +78,40 @@ Red Mini-ImageNet | N/A | [[Website]](https://ai.googleblog.com/2020/08/understa
 
 This repo focus on papers after 2019, for previous works, please refer to (https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise).
 
-## Papers & Code in 2023
+## Surveys
+Paper | Year | Publisher
+--- | --- | --- 
+Learning From Noisy Labels With Deep Neural Networks: A Survey | 2023 | IEEE Transactions on Neural Networks and Learning Systems
+A Survey of Label-noise Representation Learning: Past, Present and Future | 2021 | Arxiv
+A survey of label-noise deep learning for medical image analysis | 2023 | MIA
 
------
+
+## Theoritical Papers
+| Year | Title | Venue | Read(Y/N)|
+| :----: | :-----: | :--------: |:----------------:|
+| 2021 | [How does a neural network's architecture impact its robustness to noisy labels?](https://proceedings.neurips.cc/paper_files/paper/2021/file/51311013e51adebc3c34d2cc591fefee-Paper.pdf)|NIPS|N
+
+## Sample Selection
+### Supervised manner
+| Year | Title | Venue | Read(Y/N)| Reproduce(Y/N)|
+| :----: | :-----: | :--------: |:----------------:|:----------------:|
+|2018|Co-teaching: Robust training of deep neural networks with extremely noisy labels|NIPS | Y | Y
+|2019|How does Disagreement Help Generalization against Label Corruption?|ICML|Y|Y
+|2019|O2U-Net: A Simple Noisy Label Detection Approach for Deep Neural Networks|ICCV|Y|N
+|2020|Combating Noisy Labels by Agreement: A Joint Training Method with Co-Regularization|CVPR|Y|Y
+|2021|Boosting Co-teaching with Compression Regularization for Label Noise|CVPR|N|N
+|2021|CJC-net: A cyclical training method with joint loss and co-teaching strategy net for deep learning under noisy labels|Information Science|Y|N
+|2022|Sample Selection with Uncertainty of Losses for Learning with Noisy Labels|ICLR|Y(not clear)|N
+|2022|Self-Filtering: A Noise-Aware Sample Selection for Label Noise with Confidence Penalization|ECCV|Y|N
+|2023|Adaptive Sample Selection for Robust Learning Under Label Noise|WACV|N|N
+|2023|TCC-net: A two-stage training method with contradictory loss and co-teaching based on meta-learning for learning with noisy labels|Information Science|N|N
+
+### Semisupervised manner
+| Year | Title | Venue | Read(Y/N)| Reproduce(Y/N)|
+| :----: | :-----: | :--------: |:----------------:|:----------------:|
+
+
+## Papers & Code in 2023
 ### KDD 2023 
 * [[**UCSC REAL Lab**]](https://github.com/UCSC-REAL)  To Aggregate or Not? Learning with Separate Noisy Labels. [[Paper]](https://arxiv.org/abs/2206.07181)
 * DyGen: Learning from Noisy Labels via Dynamics-Enhanced Generative Modeling. [[Paper]](https://dl.acm.org/doi/10.1145/3580305.3599318)[[Code]](https://github.com/night-chen/DyGen)
@@ -535,3 +566,7 @@ Radiography Abnormality Assessment. [[Paper]](https://arxiv.org/pdf/2104.05261.p
 * RAR-U-Net: a Residual Encoder to Attention Decoder by Residual Connections Framework for Spine Segmentation under Noisy Labels. [[Paper]](https://arxiv.org/pdf/2009.12873.pdf)
 * Learning from Small Amount of Medical Data with Noisy Labels: A Meta-Learning Approach. [[Paper]](https://arxiv.org/pdf/2010.06939.pdf)
 -----
+
+## Github
+* [Advances-in-Label-Noise-Learning](https://github.com/weijiaheng/Advances-in-Label-Noise-Learning)
+* [Awesome-Noisy-Labels](https://github.com/songhwanjun/Awesome-Noisy-Labels)
