@@ -13,6 +13,7 @@ An advanced data-centric AI platform that detects and rectifies issues in any da
 ## Competition
 
 **A Hands-on Tutorial for Learning with Noisy Labels** (IJCAI 2022)[[website]](http://competition.noisylabels.com/)
+**
 
 ## Tutorial
 
