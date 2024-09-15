@@ -76,7 +76,7 @@ Red Mini-ImageNet | N/A | [[Website]](https://ai.googleblog.com/2020/08/understa
 
 
 
-This repo focus on papers after 2019, for previous works, please refer to (https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise).
+This repo focuses on papers after 2019, for previous works, please refer to (https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise).
 
 ## Surveys
 Paper | Year | Publisher
@@ -86,7 +86,7 @@ A Survey of Label-noise Representation Learning: Past, Present and Future | 2021
 A survey of label-noise deep learning for medical image analysis | 2023 | MIA
 
 
-## Theoritical Papers
+## Theoretical Papers
 | Year | Title | Venue | Read(Y/N)|
 | :----: | :-----: | :--------: |:----------------:|
 | 2021 | [How does a neural network's architecture impact its robustness to noisy labels?](https://proceedings.neurips.cc/paper_files/paper/2021/file/51311013e51adebc3c34d2cc591fefee-Paper.pdf)|NIPS|N
@@ -109,6 +109,21 @@ A survey of label-noise deep learning for medical image analysis | 2023 | MIA
 ### Semisupervised manner
 | Year | Title | Venue | Read(Y/N)| Reproduce(Y/N)|
 | :----: | :-----: | :--------: |:----------------:|:----------------:|
+|2018|A semi-supervised two-stage approach to learning from noisy labels|WACV|N|N
+|2019|Recycling: Semi-supervised learning with noisy labels in deep neural networks|IEEE Access|N|N
+|2020|DivideMix: Learning with Noisy Labels as Semi-supervised Learning|ICLR|N|N
+
+# Medical
+| Year | Title | Venue | Read(Y/N)| Reproduce(Y/N)|
+| :----: | :-----: | :--------: |:----------------:|:----------------:|
+
+# Read & Reproduce
+| Year | Title | Venue | Read(Y/N)| Reproduce(Y/N)|
+| :----: | :-----: | :--------: |:----------------:|:----------------:|
+|2018|Co-teaching: Robust training of deep neural networks with extremely noisy labels|NIPS | Y | Y
+|2019|How does Disagreement Help Generalization against Label Corruption?|ICML|Y|Y
+|2019|O2U-Net: A Simple Noisy Label Detection Approach for Deep Neural Networks|ICCV|Y|N
+|2020|Combating Noisy Labels by Agreement: A Joint Training Method with Co-Regularization|CVPR|Y|Y
 
 
 ## Papers & Code in 2023
