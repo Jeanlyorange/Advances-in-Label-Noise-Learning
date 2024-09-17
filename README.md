@@ -124,6 +124,7 @@ A survey of label-noise deep learning for medical image analysis | 2023 | MIA
 |2019|How does Disagreement Help Generalization against Label Corruption?|ICML|Y|Y
 |2019|O2U-Net: A Simple Noisy Label Detection Approach for Deep Neural Networks|ICCV|Y|N
 |2019|NLNL: Negative Learning for Noisy Labels|ICCV|Y|Y
+|2019|SELFIE: Refurbishing Unclean Samples for Robust Deep Learning|ICML|Y|N
 |2020|Combating Noisy Labels by Agreement: A Joint Training Method with Co-Regularization|CVPR|Y|Y
 
 
